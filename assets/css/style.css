@@ -1812,13 +1812,20 @@ input[type="radio"] {
 
 .contact ul li, a
  {
-	color: black;
-	list-style: none;
-	text-decoration: none;
-	font-family: "Source Sans Pro", sans-serif;
-	font-size: large;
-	margin: 5px;
-}
+	width: 230px;
+    height: 62px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9, 6, 6);
+    background-color: #66e6b8;
+    border: 2px solid rgb(13, 10, 10);
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: bold;
+    transition: 0.5s;
+ }
 .contact .email {
 	width: 100%;
 }
@@ -1888,7 +1895,7 @@ input[type="radio"] {
 .new-nav {
 	/*   height: 50px; */
 	min-height: 50px;
-	background-color: #f3d094;
+	background-color: #080806;
 	align-items: center;
 }
 

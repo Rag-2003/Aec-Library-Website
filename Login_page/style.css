@@ -200,6 +200,26 @@ a {
     left: 0;
     bottom: 0;
   }
+   
+    
+    
+.contact ul li, a {
+  width: 90px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #66e6b8;
+  border: 2px solid rgb(237, 233, 233);
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: bold;
+  transition: 0.5s;
+}
+
 }
 
 
@@ -235,8 +255,7 @@ a {
 
 
 
-/* Exit */
-/* 
+
 
 @media only screen and (max-width: 425px) {
   .section {
@@ -360,4 +379,21 @@ a {
     width: 30px;
     height: 30px;
   }
+}
+
+.login-btn a {
+    width: 90px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #66e6b8;
+    border: 2px solid rgb(13, 10, 10);
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: bold;
+    transition: 0.5s;
 }
